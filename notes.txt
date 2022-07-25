@@ -1,0 +1,15 @@
+if context vectors help in authorship verification
+
+first for training, use 
+
+create a global corpus with all words even from the smaller corpus
+use this vocabulary (collection of tokens in context vectors generation)
+
+get context vectors for both the corpus
+calculate similarity matrix - tokens x tokens
+then from this matrix get observations
+
+
+
+
+after = {"1" : {"1" : [], "2": [], "-1" : [], "-2":[]}}
